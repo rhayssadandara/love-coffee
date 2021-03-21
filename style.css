@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rosario', sans-serif;
 }
 
 header{
@@ -61,4 +64,56 @@ header{
 .button-signup{
     color: #ffffff;
     background-color: #7FB38D;
+}
+
+.main-container{
+    height: 60rem;
+    display: flex;
+}
+
+.main-container-text{
+    width: 45%;
+    height: 95%;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container-text-title{
+    width: 70%;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    color: #804E4E;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main-container-text-paragraph {
+    width: 90%;
+    font-size: 2.3rem;
+}
+.main-container-box-discount{
+    width: 55%;
+}
+.main-container-box-discount-background{
+    width: 100%;
+    height: 90%;
+    background-image: url("/assets/coffee-cup.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position-y: center;  
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;  
+}
+.paragraph{
+    width: 33rem;
+    height: 13rem;
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    border-left: 23px solid #ffe8e8;
+    background-color: #7FB38D;
+    color: #ffe8e8;
+    display: flex;
+    align-items: center;
 }
